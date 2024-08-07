@@ -9,7 +9,7 @@ public class Carros {
 	int portas;
 	String marcha;
 	String direcao;
-	String ano;
+	int ano;
 	String marca;
 	String modelo;
 	
@@ -46,7 +46,7 @@ public class Carros {
 	public void setPortas(int portas){
 		this.portas=portas;
 	}
-	public String getMarchaf(){
+	public String getMarcha(){
 		return marcha;
 	}
 	public void setMarcha(String marcha){
@@ -58,10 +58,10 @@ public class Carros {
 	public void setDirecao(String direcao){
 		this.direcao =direcao;
 	}
-	public String getAno(){
+	public int getAno(){
 		return ano;
 	}
-	public void setAno(String ano){
+	public void setAno(int ano){
 		this.ano =ano;
 	}
 	public String getMarca(){
@@ -70,10 +70,10 @@ public class Carros {
 	public void setMarca(String marca){
 		this.marca =marca;
 	}
-	public String getModelor(){
+	public String getModelo(){
 		return modelo;
 	}
-	public void setModelor(String modelo){
+	public void setModelo(String modelo){
 		this.modelo =modelo;
 	}
 	
