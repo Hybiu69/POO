@@ -18,7 +18,7 @@ public class ObjetoCarros {
 		carro1.setCor(l.next());
 
 		System.out.println("Placa: ");
-		carro1.setPlaca(l.nextInt());
+		carro1.setPlaca(l.next());
 
 		System.out.println("Motor: ");
 		carro1.setMotor(l.next());
@@ -55,9 +55,6 @@ public class ObjetoCarros {
 		System.out.println("Ano: " + carro1.getAno());
 		System.out.println("Marca: " + carro1.getMarca());
 		System.out.println("Modelo: " + carro1.getModelo());
-	
-
-
 	}
 
 }

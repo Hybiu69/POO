@@ -3,7 +3,7 @@ package orient_obj;
 public class Carros {
 	
 	String cor;
-	int placa;
+	String placa;
 	String motor;
 	String classe;
 	int portas;
@@ -20,10 +20,10 @@ public class Carros {
 		this.cor =cor;
 	}
 	
-	public int getPlaca(){
+	public String getPlaca(){
 		return placa;
 	}
-	public void setPlaca(int placa){
+	public void setPlaca(String placa){
 		this.placa =placa;
 	}
 	
